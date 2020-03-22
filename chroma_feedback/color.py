@@ -59,7 +59,7 @@ def get_warning() -> Dict[str, Any]:
 		'rgb':
 		[
 			255,
-			127, # This seems very 'yellow' on a Razer Chroma mouse...is 32 better?
+			32, # Razer mice apparently consider 128 (true orange) to be yellow.
 			0
 		],
 		'hue': 5460,
